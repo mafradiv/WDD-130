@@ -12,7 +12,7 @@ header {
 }
 nav {background-color: #274c77}
 nav a:hover {
-    background-color: black;
+    background-color: #274c77;
     color: #E7ECEF;
 
 }
@@ -34,7 +34,7 @@ footer p a:hover {
     text-decoration: underline;
 }  
 .home-title
-.book, .join, .msg {background-color: rgba(20,30,13, .7); border: 2px solid black;
+.book, .join, .msg {background-color: #274c77; border: 2px solid #E7ECEF;
 }
 .book:hover, .join:hover {background-color: #6096ba}
 
