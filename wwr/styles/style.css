@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rock+Salt&display=swap');
 #content {max-width: 1600px;
           margin: 0 auto;}
 #background {
@@ -5,53 +6,124 @@
     background-color: #274c77;
 }
 body {
-    background-color: #E7ECEF; 
+    background-color: #E7ECEF;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-size: 22px; 
+}
+h2 {
+    margin: 0;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 }
 header {
-    background-color:#274c77;
+    background-color:#274c77;   
 }
 nav {background-color: #274c77}
 nav a:hover {
     background-color: #274c77;
     color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {width: 80px;}
 nav a {
     text-align: center;
     color: #E7ECEF;
     text-decoration: none;
+    padding: 35px;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 } 
-footer {background-color: #274c77;
-         color: #E7ECEF;}   
+footer {
+    background-color: #274c77;
+    color: #E7ECEF;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}   
 footer p {
     font-size: 1.2em;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 }    
-footer a {text-decoration: none;
-          color: #E7ECEF;}
+footer a {
+    text-decoration: none;
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
 footer p a:hover {
     text-decoration: underline;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 }  
-footer a:hover{color: #E7ECEF;}
-.home-title {color: #E7ECEF;}
-.book, .join, .msg {background-color: #274c77; border: 2px solid #E7ECEF;
+footer a:hover{
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
 }
-.book:hover, .join:hover {background-color: #274c77}
-
-.home-title
-h4 {color: #E7ECEF;}
-.book, .join {background-color: #274c77;
-               color: #E7ECEF;
-               text-decoration: none;}
-.book:hover, .join:hover {background-color: #274c77;
-                          color: #E7ECEF;}
-.msg h2 {color: #E7ECEF;}
-.msg p {color: #E7ECEF;}
-.msg {background-color: #274c77;}
-#hero-msg h1, #hero-msg h4 {text-align: center;}
-.button-box {text-align: center;}
-main section {text-align: center;}
+footer .social img {padding-top: 15px;
+}
+.home-title {
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-size: 2em;
+    margin-top:  10px;
+}
+.book, .join, .msg {
+    background-color: #274c77; 
+    border: 2px solid #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
+h4 {
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
+.book, .join {
+    background-color: #274c77;
+    color: #E7ECEF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    }
+.book:hover, .join:hover {
+    background-color: #274c77;
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
+.msg h2 {
+    color: #E7ECEF;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';}
+.msg p {
+    color: #E7ECEF;
+    font-size: 8em;
+    padding-bottom: 15px;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
+.msg {
+    background-color: #274c77;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    }
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    color: #274c77;
+}
+.button-box {
+    text-align: center;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
+main section {
+    text-align: center;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+}
 #hero-img {width: 100%;}
+#logo-link {padding-top: 5px;}
+.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+.card-img {border: 10px solid #274c77;}
+main section img {box-sizing: border-box;}
