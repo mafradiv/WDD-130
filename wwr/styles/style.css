@@ -122,8 +122,14 @@ h4 {
     padding: 35px;
     box-shadow: 5px 5px 10px #274c77;
     }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1{
+    text-align: center;
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
+    color: #E7ECEF;
 
+} 
+
+#hero-msg h4 {
     text-align: center;
     font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
     color: #E7ECEF;
