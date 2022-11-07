@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&family=Rock+Salt&display=swap');
 #content {max-width: 1600px;
           margin: 0 auto;}
 #background {
@@ -11,12 +11,11 @@ body {
     background-color: #E7ECEF;
     margin: 0;
     padding: 0;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
     font-size: 22px; 
 }
 h2 {
     margin: 0;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
 }
 header {
     background-color:#274c77;
@@ -32,7 +31,7 @@ nav {
 nav a:hover {
     background-color: #274c77;
     color: #E7ECEF;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
 
 }
 .icon {
@@ -77,15 +76,15 @@ footer a:hover{
 footer .social img {padding-top: 15px;
 }
 .home-title {
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
     color: #E7ECEF;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
     font-size: 2em;
     margin-top:  10px;
 }
 .book, .join, .msg {
     background-color: #274c77; 
     border: 2px solid #E7ECEF;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
 }
 h4 {
     color: #E7ECEF;
@@ -156,8 +155,7 @@ main section img {
 }
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
+    grid-template-columns: 1fr 3fr 1fr;    
 }
 #hero-box {
     grid-column: 1/4;
