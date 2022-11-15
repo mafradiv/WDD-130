@@ -7,6 +7,7 @@
     grid-column: 1/11;
     grid-row: 4/9;
 }
+
 body {
     background-color: #E7ECEF;
     margin: 0;
@@ -88,7 +89,7 @@ footer .social img {padding-top: 15px;
 }
 h4 {
     color: #E7ECEF;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';
 }
 .book, .join {
     background-color: #274c77;
@@ -107,7 +108,7 @@ h4 {
 }
 .msg h2 {
     color: #E7ECEF;
-    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';}
+    font-family: 'Rock Salt', 'PT Serif', 'Helvetica';}
 .msg p {
     color: #E7ECEF;
     font-size: 1em;
@@ -206,6 +207,17 @@ main section img {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+#Rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Rivers2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Rivers2-img {
+    grid-column: 1/2;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
