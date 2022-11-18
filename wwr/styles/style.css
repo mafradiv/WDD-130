@@ -208,17 +208,47 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
-#Rivers {
+
+
+#tutor { /* hastag is for "id", "." is for "class, check: css selector, 
+    https://www.w3schools.com/css/css_selectors.asp */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: left;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin: 0 40px;
+    align-items: center;
+    background-color: #274c77;
+    font-family: 'PT Serif', 'Helvetica', 'Rock Salt';
+    color: #E7ECEF;
+
 }
-#Rivers2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+/* The elements have an imaginary chart padding the difference between the text
+and the imaginary border, margin is the space between the border and any element
+ https://blog.hubspot.com/website/css-margin-vs-padding#:~:text=In%20CSS%2C%20a%20margin%20is,the%20space%20inside%20an%20element.
+my tutor Samuel use margin most of the time in margins the first value is for up and down
+one value goes four sides and so on four up right down left*/
+#Marco-img {
+    width: 100%;
+    
 }
-.Rivers2-img {
-    grid-column: 1/2;
+#diaz1 {
+    padding: 20px;
+
 }
+#diaz2 {
+    padding: 20px;
+
+}
+#Marco2-img {
+    width: 100%;
+}
+#Rivers-footer {
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
