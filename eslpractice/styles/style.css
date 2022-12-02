@@ -111,7 +111,7 @@ main section {
 .card-img {
     border: 10px solid #457B9D;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #A8DADC;
+    box-shadow: 5px 5px 10px #E63946;
     width: 100%;
 }
 main section img {
