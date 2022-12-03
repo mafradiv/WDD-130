@@ -95,9 +95,14 @@ main section {
 }
 #hero-img {width: 100%;}
 #logo-link {
-    padding-top: 5px;
+    padding-top: 10px;
     justify-self: center;
     align-self: center;
+        
+}
+.logo {
+    width: 85%;
+    padding: 20px 20px;
 }
 .listen, .look, .read, .match {
     margin: 50px 0;
